@@ -1,16 +1,14 @@
-# Portal de Eventos – Universidade Vale do Rio (Gastronomia)
+Portal de Eventos – Universidade Vale do Rio (Gastronomia)
 
 Projeto acadêmico da disciplina de Tecnologias Web: um site front-end para
 divulgação de eventos acadêmicos da área de Gastronomia (palestras,
 minicursos, workshops e oficinas), desenvolvido com **HTML semântico** e
 **CSS puro**, sem uso de JavaScript ou frameworks.
 
-## 🔗 Site publicado
+Site publicado
+> `https://gabrielmesquitasilva.github.io/evento_gastronomico/index.html`
 
-> Substitua este link pela URL do GitHub Pages depois de publicar:
-> `https://SEU-USUARIO.github.io/evento_gastronomia/`
-
-## 📄 Páginas
+Páginas
 
 - **`index.html`** – Home: apresentação da universidade e cards com os 6
   eventos disponíveis (imagem, categoria, data, horário, local e descrição),
@@ -22,14 +20,14 @@ minicursos, workshops e oficinas), desenvolvido com **HTML semântico** e
   nome, e-mail, curso, período, evento desejado, modalidade
   (presencial/online) e confirmação.
 
-## 🛠️ Tecnologias utilizadas
+Tecnologias utilizadas
 
 - HTML5 semântico (`header`, `nav`, `main`, `section`, `article`, `footer`)
 - CSS3 (Flexbox, Media Queries, seletores de classe/elemento, transições,
   sombras e bordas arredondadas)
 - Sem JavaScript, Bootstrap, Tailwind ou qualquer outro framework
 
-## 📁 Estrutura do projeto
+Estrutura do projeto
 
 ```
 evento_gastronomia/
@@ -47,12 +45,3 @@ evento_gastronomia/
 │   └── vinho.jfif
 └── README.md
 ```
-
-## 🚀 Como publicar no GitHub Pages
-
-1. Crie um repositório no GitHub e envie todos os arquivos deste projeto.
-2. No repositório, vá em **Settings → Pages**.
-3. Em **Branch**, selecione a branch principal (ex: `main`) e a pasta `/root`.
-4. Salve e aguarde alguns minutos — o link será gerado automaticamente no
-   formato `https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/`.
-5. Copie o link e atualize a seção **🔗 Site publicado** deste README.
