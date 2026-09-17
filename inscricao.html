@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portal de Eventos - Inscrição</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Universidade Vale do Rio</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="programacao.html">Programação</a></li>
+          <li><a href="inscricao.html">Inscrição</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="inscricao">
+        <h2>Formulário de Inscrição</h2>
+        <p>Preencha os dados abaixo para se inscrever em um dos eventos.</p>
+
+        <form action="#" class="form-inscricao">
+          <div class="campo">
+            <label for="nome">Nome completo:</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite seu nome completo"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="email">E-mail:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="seuemail@exemplo.com"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="curso">Curso:</label>
+            <input
+              type="text"
+              id="curso"
+              name="curso"
+              placeholder="Ex: Ciência da Computação"
+              required
+            />
+          </div>
+
+          <div class="campo">
+            <label for="periodo">Período:</label>
+            <select id="periodo" name="periodo" required>
+              <option value="">Selecione...</option>
+              <option value="1">1º Período</option>
+              <option value="2">2º Período</option>
+              <option value="3">3º Período</option>
+              <option value="4">4º Período</option>
+              <option value="5">5º Período</option>
+              <option value="6">6º Período</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <label for="evento">Evento desejado:</label>
+            <select id="evento" name="evento" required>
+              <option value="">Selecione...</option>
+              <option value="gastronomia-sustentavel">
+                Gastronomia Sustentável
+              </option>
+              <option value="panificacao">Panificação Artesanal</option>
+              <option value="confeitaria">Confeitaria Básica</option>
+              <option value="vegana">Cozinha Vegana na Prática</option>
+              <option value="mercado">
+                Mercado de Trabalho na Gastronomia
+              </option>
+              <option value="vinhos">Harmonização de Vinhos</option>
+            </select>
+          </div>
+
+          <div class="campo">
+            <p>Modalidade:</p>
+            <label for="presencial">
+              <input
+                type="radio"
+                id="presencial"
+                name="modalidade"
+                value="presencial"
+                required
+              />
+              Presencial
+            </label>
+            <label for="online">
+              <input
+                type="radio"
+                id="online"
+                name="modalidade"
+                value="online"
+              />
+              Online
+            </label>
+          </div>
+
+          <div class="campo">
+            <label for="confirmacao">
+              <input
+                type="checkbox"
+                id="confirmacao"
+                name="confirmacao"
+                required
+              />
+              Confirmo que as informações fornecidas são verdadeiras.
+            </label>
+          </div>
+
+          <div class="campo">
+            <button type="submit">Confirmar Inscrição</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2026 Universidade Vale do Rio - Todos os direitos reservados.
+      </p>
+    </footer>
+  </body>
+</html>
