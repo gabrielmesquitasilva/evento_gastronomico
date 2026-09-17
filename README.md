@@ -6,7 +6,7 @@ minicursos, workshops e oficinas), desenvolvido com **HTML semântico** e
 **CSS puro**, sem uso de JavaScript ou frameworks.
 
 Site publicado
-> `https://gabrielmesquitasilva.github.io/evento_gastronomico/index.html`
+(https://gabrielmesquitasilva.github.io/evento_gastronomico/)
 
 Páginas
 
